@@ -171,14 +171,15 @@ img.one{
     margin: auto;
     background-color: #ffffff;
     width: 960px;
-    height: 1100px;
+    height: auto;
     border: 4px;
+    margin-top: 30px;
+    margin-bottom: 100px;
     border-color: #dddddd;
 }
 
 .portfolioimagesone{
     display: flex;
-    
     margin-left:10px;
     width:250px;
     height: 200px;
@@ -211,3 +212,23 @@ img.one{
 input.text{
     margin-left: 38px;
 }
+
+.img-fluid {
+    max-width: 50%;
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+  }
+
+.contactone{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 4px;
+    font-size: 20px;
+    font-family: 'Arial';
+    font-weight: bolder;
+    color: #777777;
+}
+
